@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "test:staged": "jest --forceExit",
     "postinstall": "husky install"
+  },
+  "standard": {
+    "env": ["jest"]
   },
   "author": "",
   "license": "ISC",
